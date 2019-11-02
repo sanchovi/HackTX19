@@ -48,7 +48,7 @@ var json = {
             isRequired: true,
         //    startWithNewLine: false,
             choices: ["Yes", "No"]
-        }
+        
     //        type: "dropdown",
     //        name: "kid4Age",
     //        title: "The fourth kid age:",
