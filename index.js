@@ -6,6 +6,7 @@ var json = {
     showQuestionNumbers: "off",
     questions: [
         {
+            //First Question
             type: "radiogroup",
             name: "crime",
             title: "Was it sexual misconduct or discrimination?",
@@ -15,6 +16,7 @@ var json = {
             ],
             colCount: 0
         }, {
+            //Sexual Misconduct
             type: "radiogroup",
             name: "student",
             title: "Was the offender a student?",
@@ -22,6 +24,7 @@ var json = {
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
+            //Sexual Misconduct; Student
             type: "radiogroup",
             name: "studentOffender",
             title: "Would you like the incident to remain confidential?",
@@ -60,6 +63,8 @@ var json = {
             isRequired: true,
             startWithNewLine: false,
             "choicesMax": 18
+            
+            //Discrimination
         }
     ]
 };
