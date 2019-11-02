@@ -11,7 +11,7 @@ var json = {
             title: "Was it sexual misconduct or discrimination?",
             isRequired: true,
             choices: [
-                "Sexual misconduct", "Discrimination"
+                "Sexual Misconduct", "Discrimination"
             ],
             colCount: 0
         }, {
