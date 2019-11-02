@@ -32,14 +32,14 @@ var json = {
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-    //        //Sexual Misconduct; Not Confidential
-    //        type: "radiogroup",
-    //        name: "offender",
-    //        title: "Was the offender a student?",
-    //        visibleIf: "{confidential}= 'No'",
-    //        isRequired: true,
-    //        choices: ["Yes", "No"]
-    //    }, {
+            //Sexual Misconduct; Not Confidential
+            type: "radiogroup",
+            name: "offender",
+            title: "Was the offender a student?",
+            visibleIf: "{confidential}= 'No'",
+            isRequired: true,
+            choices: ["Yes", "No"]
+        }, {
     //        //Sexual Misconduct; Not Confidential; Student
     //        type: "radiogroup",
     //        name: "notStudent",
