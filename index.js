@@ -25,13 +25,13 @@ var json = {
             choices: ["Yes", "No"]
         }, {
             //Sexual Misconduct; Condfidential
-//            type: "radiogroup",
-  //          name: "confidentialSources",
-    //        title: "UHS, CMH, Advocates, IVPS",
-    //        visibleIf: "{confidential}= 'Yes'",
-    //        isRequired: true,
-    //        choices: ["Yes", "No"]
-    //    }, {
+            type: "radiogroup",
+            name: "confidentialSources",
+            title: "UHS, CMH, Advocates, IVPS",
+            visibleIf: "{confidential}= 'Yes'",
+            isRequired: true,
+            choices: ["Yes", "No"]
+        }, {
     //        //Sexual Misconduct; Not Confidential
     //        type: "radiogroup",
     //        name: "offender",
