@@ -8,7 +8,7 @@ var json = {
         {
             type: "radiogroup",
             name: "haveKids",
-            title: "Do you have a kid(s)?",
+            title: "Was the offender a student?",
             isRequired: true,
             choices: [
                 "Yes", "No"
