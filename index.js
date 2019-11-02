@@ -40,14 +40,13 @@ var json = {
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-             // Sexual Misconduct; Not Confidential; Student
-              type: "radiogroup",
-              name: "result",
-              title: "Title IX",
-              visibleIf: "{student}= 'Yes",
-              isRequired: true,
-              startWithNewLine: false,
-              choices: ["Yes", "No"]
+            // Sexual Misconduct; Not Confidential; Student
+            type: "radiogroup",
+            name: "result",
+            title: "Title IX",
+            visibleIf: "{student}= 'Yes",
+            isRequired: true,
+            choices: ["Yes", "No"]
          }, {
             //Discrimination
             type: "radiogroup",
