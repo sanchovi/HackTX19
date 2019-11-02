@@ -18,30 +18,31 @@ var json = {
         }, {
             //Sexual Misconduct
             type: "radiogroup",
-            name: "student",
-            title: "Was the offender a student?",
+            name: "confidential",
+            title: "Would you like the incident to remain confidential?",
             visibleIf: "{crime}='Sexual Misconduct'",
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-            //Sexual Misconduct; Student
+            //Sexual Misconduct; Condfidential
             type: "radiogroup",
-            name: "studentOffender",
-            title: "Would you like the incident to remain confidential?",
-            visibleIf: "{student}= 'Yes'",
+            name: "confidentialSources",
+            title: "UHS, CMH, Advocates, IVPS",
+            visibleIf: "{confidential}= 'Yes'",
+            isRequired: true,
+            choices: [null]
+        }, {
+            //Sexual Misconduct; Not Confidential
+            type: "radiogroup",
+            name: "offender",
+            title: "Was the offender a student?",
+            visibleIf: "{confidential}= 'No'",
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-            type: "dropdown",
-            name: "kid2Age",
-            title: "The second kid age:",
-            visibleIf: "{haveKids}='Yes' and {kids} >= 2",
-            isRequired: true,
-            startWithNewLine: false,
-            "choicesMax": 18
-        }, {
-            type: "dropdown",
-            name: "kid3Age",
+            //Sexual Misconduct; Not Confidential; Student
+            type: "radiogroup",
+            name: "notStudent",
             title: "The third kid age:",
             visibleIf: "{haveKids}='Yes' and {kids} >= 3",
             isRequired: true,
@@ -65,14 +66,6 @@ var json = {
             "choicesMax": 18
             
             //Discrimination
-              }, {
-            type: "radiogroup",
-            name: "discrimination",
-            title: "The fifth kid age:",
-            visibleIf: "{crime}='Discrimination'",
-            isRequired: true,
-            startWithNewLine: false,
-            "choicesMax": ["test"]
         }
     ]
 };
