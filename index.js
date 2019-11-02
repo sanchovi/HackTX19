@@ -41,13 +41,13 @@ var json = {
             choices: ["Yes", "No"]
         }, {
             //Sexual Misconduct; Not Confidential; Student
-            type: "radiogroup",
-            name: "result",
-            title: "Title IX",
-            visibleIf: "{student}= 'Yes",
-            isRequired: true,
-        //    startWithNewLine: false,
-            choices: ["Yes", "No"]
+        //    type: "radiogroup",
+        //    name: "result",
+        //    title: "Title IX",
+        //    visibleIf: "{student}= 'Yes",
+        //    isRequired: true,
+       //     startWithNewLine: false,
+     //       choices: ["Yes", "No"]
         
     //        type: "dropdown",
     //        name: "kid4Age",
@@ -65,7 +65,7 @@ var json = {
       //      startWithNewLine: false,
       //      "choicesMax": 18
             
-              }, {
+            //  }, {
             //Discrimination
             type: "radiogroup",
             name: "discrimination",
