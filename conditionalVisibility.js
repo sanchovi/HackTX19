@@ -1,3 +1,7 @@
+Survey
+    .StylesManager
+    .applyTheme("default");
+
 var json = {
     showQuestionNumbers: "off",
     questions: [
@@ -70,5 +74,4 @@ survey
             .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
     });
 
-$("#surveyElement").Survey({model: survey});
-
+ReactDOM.render(<Survey.Survey model={survey}/>, document.getElementById("surveyElement"));
