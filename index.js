@@ -40,32 +40,15 @@ var json = {
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-            //Sexual Misconduct; Not Confidential; Student
-        //    type: "radiogroup",
-        //    name: "result",
-        //    title: "Title IX",
-        //    visibleIf: "{student}= 'Yes",
-        //    isRequired: true,
-       //     startWithNewLine: false,
-     //       choices: ["Yes", "No"]
-        
-    //        type: "dropdown",
-    //        name: "kid4Age",
-    //        title: "The fourth kid age:",
-    //        visibleIf: "{haveKids}='Yes' and {kids} >= 4",
-    //        isRequired: true,
-    //        startWithNewLine: false,
-    //        "choicesMax": 18
-    //    }, {
-    //        type: "dropdown",
-     //       name: "kid5Age",
-      //      title: "The fifth kid age:",
-      //      visibleIf: "{haveKids}='Yes' and {kids} >= 5",
-      //      isRequired: true,
-      //      startWithNewLine: false,
-      //      "choicesMax": 18
-            
-             }, {
+             // Sexual Misconduct; Not Confidential; Student
+              type: "radiogroup",
+              name: "result",
+              title: "Title IX",
+              visibleIf: "{student}= 'Yes",
+              isRequired: true,
+              startWithNewLine: false,
+              choices: ["Yes", "No"]
+         }, {
             //Discrimination
             type: "radiogroup",
             name: "discrimination",
