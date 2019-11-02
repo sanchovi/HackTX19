@@ -46,9 +46,9 @@ var json = {
             title: "Title IX",
             visibleIf: "{student}= 'Yes",
             isRequired: true,
-            startWithNewLine: false,
+        //    startWithNewLine: false,
             choices: ["Yes", "No"]
-        }, {
+        }
     //        type: "dropdown",
     //        name: "kid4Age",
     //        title: "The fourth kid age:",
