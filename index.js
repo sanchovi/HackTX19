@@ -7,27 +7,27 @@ var json = {
     questions: [
         {
             type: "radiogroup",
-            name: "haveKids",
-            title: "Was the offender a student?",
+            name: "crime",
+            title: "Was it sexual misconduct or discrimination?",
             isRequired: true,
             choices: [
-                "Yes", "No"
+                "Sexual misconduct", "Discrimination"
             ],
             colCount: 0
         }, {
-            type: "dropdown",
-            name: "kids",
-            title: "How many kids do you have",
-            visibleIf: "{haveKids}='Yes'",
+            type: "radiogroup",
+            name: "student",
+            title: "Was the offender a student?",
+            visibleIf: "{crime}='Sexual Misconduct'",
             isRequired: true,
-            choices: [1, 2, 3, 4, 5]
+            choices: ["Yes", "No"]
         }, {
-            type: "dropdown",
-            name: "kid1Age",
-            title: "The first kid age:",
-            visibleIf: "{haveKids}='Yes' and {kids} >= 1",
+            type: "radiogroup",
+            name: "studentOffender",
+            title: "Would you like the incident to remain confidential?",
+            visibleIf: "{student}= 'Yes'",
             isRequired: true,
-            "choicesMax": 18
+            choices: ["Yes", "No"]
         }, {
             type: "dropdown",
             name: "kid2Age",
