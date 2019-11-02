@@ -14,13 +14,13 @@ var json = {
             choices: [
                 "Sexual Misconduct", "Discrimination"
             ],
-            colCount: 0
+           // colCount: 0
         }, {
             //Sexual Misconduct
             type: "radiogroup",
             name: "confidential",
             title: "Would you like the incident to remain confidential?",
-            visibleIf: "{crime}='Sexual Misconduct'",
+            visibleIf: "{crime}= 'Sexual Misconduct'",
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
