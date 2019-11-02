@@ -30,7 +30,7 @@ var json = {
             title: "UHS, CMH, Advocates, IVPS",
             visibleIf: "{confidential}= 'Yes'",
             isRequired: true,
-            choices: [null]
+            choices: ["Yes", "No"]
         }, {
             //Sexual Misconduct; Not Confidential
             type: "radiogroup",
