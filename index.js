@@ -14,7 +14,7 @@ var json = {
             choices: [
                 "Sexual Misconduct", "Discrimination"
             ],
-            colCount: 1
+            colCount: 0
         }, {
             //Sexual Misconduct
             type: "radiogroup",
@@ -25,45 +25,45 @@ var json = {
             choices: ["Yes", "No"]
         }, {
             //Sexual Misconduct; Condfidential
-            type: "radiogroup",
-            name: "confidentialSources",
-            title: "UHS, CMH, Advocates, IVPS",
-            visibleIf: "{confidential}= 'Yes'",
-            isRequired: true,
-            choices: ["Yes", "No"]
-        }, {
-            //Sexual Misconduct; Not Confidential
-            type: "radiogroup",
-            name: "offender",
-            title: "Was the offender a student?",
-            visibleIf: "{confidential}= 'No'",
-            isRequired: true,
-            choices: ["Yes", "No"]
-        }, {
-            //Sexual Misconduct; Not Confidential; Student
-            type: "radiogroup",
-            name: "notStudent",
-            title: "The third kid age:",
-            visibleIf: "{haveKids}='Yes' and {kids} >= 3",
-            isRequired: true,
-            startWithNewLine: false,
-            "choicesMax": 18
-        }, {
-            type: "dropdown",
-            name: "kid4Age",
-            title: "The fourth kid age:",
-            visibleIf: "{haveKids}='Yes' and {kids} >= 4",
-            isRequired: true,
-            startWithNewLine: false,
-            "choicesMax": 18
-        }, {
-            type: "dropdown",
-            name: "kid5Age",
-            title: "The fifth kid age:",
-            visibleIf: "{haveKids}='Yes' and {kids} >= 5",
-            isRequired: true,
-            startWithNewLine: false,
-            "choicesMax": 18
+//            type: "radiogroup",
+  //          name: "confidentialSources",
+    //        title: "UHS, CMH, Advocates, IVPS",
+    //        visibleIf: "{confidential}= 'Yes'",
+    //        isRequired: true,
+    //        choices: ["Yes", "No"]
+    //    }, {
+    //        //Sexual Misconduct; Not Confidential
+    //        type: "radiogroup",
+    //        name: "offender",
+    //        title: "Was the offender a student?",
+    //        visibleIf: "{confidential}= 'No'",
+    //        isRequired: true,
+    //        choices: ["Yes", "No"]
+    //    }, {
+    //        //Sexual Misconduct; Not Confidential; Student
+    //        type: "radiogroup",
+    //        name: "notStudent",
+    //        title: "The third kid age:",
+    //        visibleIf: "{haveKids}='Yes' and {kids} >= 3",
+    //        isRequired: true,
+    //        startWithNewLine: false,
+    //        "choicesMax": 18
+    //    }, {
+    //        type: "dropdown",
+    //        name: "kid4Age",
+    //        title: "The fourth kid age:",
+    //        visibleIf: "{haveKids}='Yes' and {kids} >= 4",
+    //        isRequired: true,
+    //        startWithNewLine: false,
+    //        "choicesMax": 18
+    //    }, {
+    //        type: "dropdown",
+     //       name: "kid5Age",
+      //      title: "The fifth kid age:",
+      //      visibleIf: "{haveKids}='Yes' and {kids} >= 5",
+      //      isRequired: true,
+      //      startWithNewLine: false,
+      //      "choicesMax": 18
             
               }, {
             //Discrimination
