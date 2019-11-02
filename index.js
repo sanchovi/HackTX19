@@ -34,21 +34,21 @@ var json = {
         }, {
             //Sexual Misconduct; Not Confidential
             type: "radiogroup",
-            name: "offender",
+            name: "student",
             title: "Was the offender a student?",
             visibleIf: "{confidential}= 'No'",
             isRequired: true,
             choices: ["Yes", "No"]
         }, {
-    //        //Sexual Misconduct; Not Confidential; Student
-    //        type: "radiogroup",
-    //        name: "notStudent",
-    //        title: "The third kid age:",
-    //        visibleIf: "{haveKids}='Yes' and {kids} >= 3",
-    //        isRequired: true,
-    //        startWithNewLine: false,
-    //        "choicesMax": 18
-    //    }, {
+            //Sexual Misconduct; Not Confidential; Student
+            type: "radiogroup",
+            name: "result",
+            title: "Title IX",
+            visibleIf: "{student}= 'Yes",
+            isRequired: true,
+            startWithNewLine: false,
+            choices: ["Yes", "No"]
+        }, {
     //        type: "dropdown",
     //        name: "kid4Age",
     //        title: "The fourth kid age:",
