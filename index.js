@@ -14,7 +14,7 @@ var json = {
             choices: [
                 "Sexual Misconduct", "Discrimination"
             ],
-            colCount: 0
+           // colCount: 0
         }, {
             //Sexual Misconduct
             type: "radiogroup",
