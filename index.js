@@ -65,7 +65,15 @@ var json = {
             startWithNewLine: false,
             "choicesMax": 18
             
+              }, {
             //Discrimination
+            type: "radiogroup",
+            name: "discrimination",
+            title: "The fifth kid age:",
+            visibleIf: "{crime}='Discrimination'",
+            isRequired: true,
+            startWithNewLine: false,
+            "choicesMax": ["test"]
         }
     ]
 };
