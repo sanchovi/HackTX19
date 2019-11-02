@@ -44,7 +44,7 @@ var json = {
             type: "radiogroup",
             name: "result",
             title: "Title IX",
-            visibleIf: "{student}= 'Yes",
+            visibleIf: "{student}= 'Yes'",
             isRequired: true,
             choices: ["Yes", "No"]
          }, {
