@@ -65,7 +65,7 @@ var json = {
       //      startWithNewLine: false,
       //      "choicesMax": 18
             
-            //  }, {
+             }, {
             //Discrimination
             type: "radiogroup",
             name: "discrimination",
