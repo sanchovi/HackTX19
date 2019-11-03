@@ -1,6 +1,6 @@
 Survey
     .StylesManager
-    .applyTheme("bootstrap");
+    .applyTheme("modern");
 
 var json = {
     showQuestionNumbers: "off",
