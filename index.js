@@ -1,6 +1,6 @@
 Survey
     .StylesManager
-    .applyTheme("default");
+    .applyTheme("modern");
 
 var json = {
     showQuestionNumbers: "off",
@@ -28,9 +28,10 @@ var json = {
             type: "radiogroup",
             name: "confidentialSources",
             title: "UHS, CMH, Advocates, IVPS",
+            title: "Campus Mental Health Center",
             visibleIf: "{confidential}= 'Yes'",
-            isRequired: true,
-            choices: ["Yes", "No"]
+            isRequired: false,
+            choices: ["null"]
         }, {
             //Sexual Misconduct; Not Confidential
             type: "radiogroup",
