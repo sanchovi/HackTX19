@@ -51,7 +51,7 @@ var json = {
             //Discrimination
             type: "radiogroup",
             name: "discrimination",
-            title: "The fifth kid age:",
+            title: "Office of Inclusivity and Equity",
             visibleIf: "{crime}='Discrimination'",
             isRequired: true,
             startWithNewLine: false,
