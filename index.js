@@ -1,12 +1,8 @@
-Survey
-    .StylesManager
-    .applyTheme("default");
-
 var json = {
     showQuestionNumbers: "off",
     questions: [
         {
-          "type": "radiogroup",
+    "type": "radiogroup",
      "name": "crime",
      "title": "What type of incident was this?",
      "choices": [
@@ -143,10 +139,7 @@ var json = {
      }
     }
    ]
-  }
- ],
-    ]
-};
+  };
 
 
 
