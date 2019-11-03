@@ -54,7 +54,7 @@ var json = {
             title: "Office of Inclusivity and Equity",
             visibleIf: "{crime}='Discrimination'",
             isRequired: true,
-            "choicesMax": ["test"]
+            choices: ["Yes", "No"]
         }
     ]
 };
