@@ -1,3 +1,7 @@
+Survey
+     .StylesManager
+     .applyTheme("default");
+
 var json = {
     showQuestionNumbers: "off",
     questions: [
